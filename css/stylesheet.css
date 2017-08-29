@@ -1,0 +1,61 @@
+* {
+	margin: 0; /* margin zur�cksetzten */
+}
+
+
+/* Nav Eigenschaften */
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 99;
+	text-align: center;
+}
+
+/* Eigenschaften f�r Links in Nav */
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+/* Generelle Eigenschaften der Bilder */
+.section {
+	height: 100%;
+	background-color: aqua;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Generelle Eigenschaften der Texte */
+.subSection {
+	height: 50%;
+	background-color: rgb(255,255,255);
+}
+
+/* Bild 1 */
+.sectOne{
+	background-image: url("../img/img_001.jpg");
+}
+
+/* Bild 2 */
+.sectTwo{
+	background-image: url("../img/img_002.jpg");
+}
+
+/* Bild 3 */
+.sectThree{
+	background-image: url("../img/img_003.jpg");
+}
+
+#pBild01{
+	color: white;
+	text-align: center;
+	font-size: 42;
+	position: relative;
+	top: 350px;
+	border-style: none none solid none;
+	border-color: white;
+}
