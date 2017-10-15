@@ -1,5 +1,5 @@
 * {
-	margin: 0; /* margin zur�cksetzten */
+	margin: 0; /* margin zuruecksetzten */
 }
 
 
@@ -13,7 +13,7 @@ nav {
 	text-align: center;
 }
 
-/* Eigenschaften f�r Links in Nav */
+/* Eigenschaften fuer Links in Nav */
 nav a {
 	text-decoration: none;
 	color: white;
@@ -31,8 +31,10 @@ nav a {
 
 /* Generelle Eigenschaften der Texte */
 .subSection {
-	height: 50%;
-	background-color: rgb(255,255,255);
+	height: 25%;
+	background: linear-gradient(to bottom right, red, tomato);
+	border-style: solid solid solid solid;
+	
 }
 
 /* Bild 1 */
@@ -51,11 +53,37 @@ nav a {
 }
 
 #pBild01{
-	color: white;
+	color: black;
 	text-align: center;
 	font-size: 42;
 	position: relative;
-	top: 350px;
+	top: 130px;
 	border-style: none none solid none;
-	border-color: white;
+	border-color: black;
+}
+
+/* Ueberschriften in Textfeldern */
+#hText{
+	width: 50%;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	border-style: none none solid none;
+
+}
+
+/* Texte in Textfeldern */
+#pText{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20;
+	
+}
+
+/* Ungeordnete Listen in Textfeldern */
+#ulText{
+	font-size: 20;
+	margin-left: 400px;
+	margin-top: 30px;
+	
 }
