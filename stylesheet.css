@@ -1,0 +1,89 @@
+* {
+	margin: 0; /* margin zuruecksetzten */
+}
+
+
+/* Nav Eigenschaften */
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 99;
+	text-align: center;
+}
+
+/* Eigenschaften fuer Links in Nav */
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+/* Generelle Eigenschaften der Bilder */
+.section {
+	height: 100%;
+	background-color: aqua;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Generelle Eigenschaften der Texte */
+.subSection {
+	height: 25%;
+	background: linear-gradient(to bottom right, red, tomato);
+	border-style: solid solid solid solid;
+	
+}
+
+/* Bild 1 */
+.sectOne{
+	background-image: url("../img/img_001.jpg");
+}
+
+/* Bild 2 */
+.sectTwo{
+	background-image: url("../img/img_002.jpg");
+}
+
+/* Bild 3 */
+.sectThree{
+	background-image: url("../img/img_003.jpg");
+}
+
+#pBild01{
+	color: black;
+	text-align: center;
+	font-size: 42;
+	position: relative;
+	top: 130px;
+	border-style: none none solid none;
+	border-color: black;
+}
+
+/* Ueberschriften in Textfeldern */
+#hText{
+	width: 50%;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	border-style: none none solid none;
+
+}
+
+/* Texte in Textfeldern */
+#pText{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20;
+	
+}
+
+/* Ungeordnete Listen in Textfeldern */
+#ulText{
+	font-size: 20;
+	margin-left: 400px;
+	margin-top: 30px;
+	
+}
