@@ -64,7 +64,7 @@ nav a:hover {
 /* Textfeld mit Kontaktinfo */
 .divKontakte{
 	width: 80%;
-	height: 60%;
+	height: 70%;
 	margin-left: 10%;
 	margin-top: 10%;
 	border-style: solid solid solid solid;
@@ -80,16 +80,9 @@ nav a:hover {
 	text-align: center;
 }
 
-#kontAdresse{
-	position: relative;
-	top: 3%;
-	left: 25%;
-}
-
-#kontKontakte{
-	position: relative;
-	top: 3%;
-	left: 50%;
+/*Positioniert die Tabelle auf der Seite*/
+#kontTabelle{
+	text-align: center;
 }
 
 /* Infotext-Seite */
@@ -143,4 +136,9 @@ nav a:hover {
 	margin-left: 400px;
 	margin-top: 30px;
 	color: white;
+}
+
+/*Abstandsreihe in tabellen*/
+#tableSpacer{
+	width: 10%
 }
