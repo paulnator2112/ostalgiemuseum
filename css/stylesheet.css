@@ -83,7 +83,7 @@ nav a:hover {
 /* Infotext-Seite */
 .divInfotext{
 	width: 80%;
-	height: 70%;
+	height: 90%;
 	margin-left: 10%;
 	margin-top: 5%;
 	border-style: solid solid solid solid;
@@ -92,10 +92,14 @@ nav a:hover {
 
 #infoText{
 	position: relative;
-	left: 30%;
+	text-align: left;
 	top: 5%
 }
 
+#infoTextparent{
+	display: table;
+	margin: 0 auto;
+}
 /* Ueberschrift 'Willkommen' */
 #pBild01{
 	color: white;
