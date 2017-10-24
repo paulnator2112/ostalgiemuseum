@@ -82,9 +82,9 @@ nav a:hover {
 
 /* Infotext-Seite */
 .divInfotext{
-	width: 80%;
-	height: 90%;
-	margin-left: 10%;
+	width: 70%;
+	height: 85%;
+	margin-left: 15%;
 	margin-top: 5%;
 	border-style: solid solid solid solid;
 	background: radial-gradient(white 65%, gray);
@@ -93,7 +93,8 @@ nav a:hover {
 #infoText{
 	position: relative;
 	text-align: left;
-	top: 5%
+	margin-top: 5%;
+	font-size: 2vh;
 }
 
 #infoTextparent{
