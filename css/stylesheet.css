@@ -48,17 +48,17 @@ nav a:hover {
 
 /* Bild 1 */
 .sectOne{
-	background-image: url("../img/img_001.jpg");
+	background-image: url("../img/img_ind01.jpg");
 }
 
 /* Bild 2 */
 .sectTwo{
-	background-image: url("../img/img_002.jpg");
+	background-image: url("../img/img_ind02.jpg");
 }
 
 /* Bild 3 */
 .sectThree{
-	background-image: url("../img/img_003.jpg");
+	background-image: url("../img/img_ind03.jpg");
 }
 
 /* Textfeld mit Kontaktinfo */
