@@ -22,7 +22,7 @@
 					$split = explode(".",$value);
 					echo '<div class="gallery">
 							<a target="_blank" href="img/gal/'.$value.'">
-								<img id="gal" src="img/gal/'.$value.'" width="300" height="200">
+								<img id="gal" src="img/gal/'.$value.'" style="width:210px; height:200px;">
 							</a>
 						<div class="desc">'.$ini["title"][$split[0]].'</div>
 					</div>

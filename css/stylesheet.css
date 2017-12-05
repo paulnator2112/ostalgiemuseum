@@ -48,17 +48,17 @@ nav a:hover {
 
 /* Bild 1 */
 .sectOne{
-	background-image: url("../img/img_ind01.jpg");
+	background-image: url("../img/img_001.jpg");
 }
 
 /* Bild 2 */
 .sectTwo{
-	background-image: url("../img/img_ind02.jpg");
+	background-image: url("../img/img_002.jpg");
 }
 
 /* Bild 3 */
 .sectThree{
-	background-image: url("../img/img_ind03.jpg");
+	background-image: url("../img/img_003.jpg");
 }
 
 /* Textfeld mit Kontaktinfo */
@@ -108,8 +108,9 @@ nav a:hover {
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 11px;
+	margin-top: 55px;
+    border: 3px solid #ccc;
     float: left;
     width: 210px;
 	height: 250px;
@@ -118,16 +119,11 @@ div.gallery {
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
+    border: 3px solid #000;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
