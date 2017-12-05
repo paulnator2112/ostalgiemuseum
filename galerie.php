@@ -6,7 +6,7 @@
 		<title>Galerie</title>
 		<link rel="stylesheet" href="css/stylesheet.css" />
 	</head>
-	<body style="background-image:url('img/img_005.jpg');">	
+	<body bgcolor="gray">	
 		<nav>
 			<a href="index.html">HOME</a>
 			<a href="galerie.php">GALERIE</a>
